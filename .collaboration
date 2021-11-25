@@ -141,7 +141,17 @@
   },
   {
     "ModuleName": "PageReport/报表1",
-    "ModuleType": 17
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-11-25T09:21:39.8343944+08:00",
+    "ModuleType": 17,
+    "ToRemoveFiles": [
+      "Reports\\报表1.json",
+      "Reports\\报表1.rdlx"
+    ]
   },
   {
     "ModuleName": "Pages/A",
@@ -184,7 +194,16 @@
   },
   {
     "ModuleName": "Reports/E",
-    "ModuleType": 19
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-11-25T09:21:39.8343944+08:00",
+    "ModuleType": 19,
+    "ToRemoveFiles": [
+      "Reports\\E"
+    ]
   },
   {
     "ModuleName": "Tables/b",
