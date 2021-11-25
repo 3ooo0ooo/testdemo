@@ -1,0 +1,55 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "AllowRoles": [
+          "FGC_LoginUser"
+        ]
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "currentUser",
+      "ParameterValue": "%CurrentUser%",
+      "ID": "84468e98b1914aa7a85f1ed8b82e3e59"
+    },
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "currentUserRole",
+      "ParameterValue": "%CurrentUser.Role%",
+      "ID": "bb415842ee964aca8e01eab47d53d961"
+    },
+    {
+      "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+      "CustomReturns": [
+        {
+          "ReturnPropertyName": "返回值1",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=currentUser"
+          }
+        },
+        {
+          "ReturnPropertyName": "返回值2",
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=currentUserRole"
+          }
+        }
+      ]
+    }
+  ],
+  "ReturnProperties": [
+    {
+      "Name": "返回值1"
+    },
+    {
+      "Name": "返回值2"
+    }
+  ],
+  "Name": "Param_Server"
+}

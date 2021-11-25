@@ -1,0 +1,176 @@
+{
+  "Rows": {
+    "Count": 28
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "AttachInfos": {
+    "1,6": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_Normal1",
+        "ImagePath": "fgc_logo_light.png"
+      }
+    },
+    "1,15": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowUserDisplayName": false,
+        "ShowCircleUserPicture": true,
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "4,0": {
+      "IsPlaceHolderCell": true
+    },
+    "25,0": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyIconMenuCellType, Forguncy.CustomMenu",
+        "Items": [
+          {
+            "Text": "首页",
+            "IconPath": "Navigation/165_home_3.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsDefaultItem": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "页面2",
+                "PassValues": []
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Text": "表单",
+            "IconPath": "Application/130_list_2.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "页面3",
+                "PassValues": []
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Text": "查询",
+            "IconPath": "Application/047_search_8.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Text": "报表",
+            "IconPath": "Chart/362_column_chart_1.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Text": "设置",
+            "IconPath": "Application/053_settings_4.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "Orientation": 0,
+        "MenuLevelsStyle": [
+          {
+            "BackColor": "#FFFFFF",
+            "ForeColor": "Background 1 -35",
+            "SelectedBackColor": "Background 1 0",
+            "SelectedForeColor": "Accent 1 0",
+            "FontSize": 11.0,
+            "Bold": true,
+            "Height": 55.0,
+            "IconHeight": 32.0,
+            "IconWidth": 32.0
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 10.666666666666666,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "RowStyles": {
+      "25": 0,
+      "26": 0,
+      "27": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,6,3,6",
+    "1,15,2,2",
+    "4,0,21,18",
+    "25,0,3,18"
+  ],
+  "BackgroundPictures": [
+    {
+      "DisplayName": "背景图1",
+      "ForguncyPictureName": "MobileMasterBanner",
+      "Stretch": 3,
+      "ForguncyPictureSourceType": 2,
+      "Name": "4bb2e140-7602-4ebf-b710-15ac9a0dbfaa",
+      "Size": "360,80"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "PageLoadedCommandList": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//5gbGXvHbS/a7Jw5yqljebBwHXUDg8G+GB1OoD2fNeVPYJzH5nd+Kx9c8vi00GveI1OxbjUoPPxbjh8qOj5gGrEPImoVR+Z/OvDJvLizRkNzyYzBE9XVpQvX+Az70QJ6Z18y2dJ21/awB4LUgDWQ2rGXO4axKAQV6DVR1aFhgWAAg5kZV3sObq9UtW/1bvDgq3sK0tkXMQAywCP7ikSDV4qhOj5SsUvDmMxpsbT9yjlfNg9bEnUUgb6GfSRxIZpazQeq0jPiguok4oPqjcpXku47aet4OMWxFsB3v1CH8wkFb5c89cccG5PAtc4N/LqstmHnRkIQXBDFTxWNwa16OmYoYmbVeW3FHxgniguS6Oebi0XN4SbZ1ma+kh8AFnOo1HkK66QdxUmAVros8XqmZQBgz9U7zRpX8A3vi0x7JCWtL3KZcPXeDrH6st/iDQVVgDDKpj+3wXRzx+dyavOf7MtP/9qoevbPY/W31qJdDINB6naEQ2spj4H32yMOwTBPmkIKJjWHi/3xbc+nCWOXHOqBHj62AL1klmEZIk89OkTiXKIa6NKz159Rkl+t6M7qsu1U7t7PjBusMoLd1qrMqLe+3XEYsua7FzykFzcN1MotSEoxu1Plnbm+KErlxkw8CTq+ymef1qQTcA5WmTV5o3WCSJE/uuAazDqIdF/Fvs+DoUtXq5o9fQ/fCZl9udqPT69n3dLhRjmW5XNeSu8q3y0xdsONydlJkb12EcUmqt7JaesFhAVC4StWIgt/L2mjnTRwwx0Mc5bGOx/boN1aP66mE4mDx7+kJIhgNXMA3wEoenHj61OI0+OxP0LpBmJinYARzYTTz1ysfl90WAhsQcUJJc+93myhrWBrCuwOOAmoXfw6r/R/5UA0elJn48jkz8ygkGqfYaEn9qo/ZP88oNw==|920

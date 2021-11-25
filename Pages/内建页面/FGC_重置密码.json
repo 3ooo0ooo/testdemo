@@ -107,34 +107,62 @@
     "Styles": [
       {
         "FontSize": 37.333332061767578,
-        "Foreground": 0
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
-        "Foreground": 0
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "Foreground": 1,
         "VerticalAlignment": 2,
         "Underline": null,
-        "Strikethrough": null
+        "Strikethrough": null,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
-        "Formatter": 3
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 14.0,
         "Foreground": 4,
-        "HorizontalAlignment": 5
+        "HorizontalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 14.0,
-        "FontWeight": 6
+        "FontWeight": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 14.0,
         "FontWeight": 6,
         "Foreground": 7,
-        "HorizontalAlignment": 8
+        "HorizontalAlignment": 8,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -166,18 +194,22 @@
     "SheetStyle": {
       "FontFamily": 9,
       "Underline": false,
-      "Strikethrough": false
+      "Strikethrough": false,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
     "5,12,3,23",
-    "11,22,3,12",
-    "16,22,3,12",
-    "21,25,2,5",
-    "21,30,2,5",
     "8,14,2,20",
     "11,19,2,1",
-    "16,19,2,1"
+    "11,22,3,12",
+    "16,19,2,1",
+    "16,22,3,12",
+    "21,25,2,5",
+    "21,30,2,5"
   ],
   "BackgroundPictures": [
     {
@@ -188,7 +220,7 @@
       },
       "IsAutomaticStroke": false,
       "IsAutomaticFill": false,
-      "Name": "3f3472c7-d700-4840-869e-07837142e4f7.png",
+      "Name": "ceef9328-9e6a-42b5-b9d2-fad4a697ad60",
       "Location": "200,80",
       "Size": "540,360"
     }
@@ -196,8 +228,10 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MasterPageName": "FGC_母版页",
-    "MobilePageName": "FGC_重置密码_手机版",
     "Title": "重置密码",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true
@@ -206,4 +240,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//I+4zru7MOJ3bFIoQXai1ua0q/o/gYanOTS+40YqtGFl6h7DP5JlCoJt6JlPNn5k6hIN+U8ZfJjjMlYUEJ0O0FWb/vWZhJZvr5oKepS4L+7RF/bmL72+IoH6tWjzN3Vs4oZg0NIHEdOxTo5LkjdnzV4vXKG8hlvdh9nf+V3eHnyiXuzVN0+0orvAOIVYHr7MFmWB8SedECVsFumsUOLdaVClbIHXUENh226Ju4tNBJ9PiBCcKhLdkQIZZfbSU2IIvv02QffzYy1GjlWIfcYFRyUUkNHEUZPVGnJHK/kQfP0TOeAYCSMt8ZKs409TCwL+QskJFEfY+yYQzDeksxteyvhOM0bcdAE51OhwJCMHfcGapQBrVDUmdKtuMmIG8Ur8EZk0le0IQO62AZqQ73ztq5gJfSu5jbAuurpcmjhpijJ7em6Bt86/R//5qQ+QsHV2VyweAyfKhY5NbbRw6Zk2YExhQDQYsKZ1jAIO35uhWAlw6Pf+8p1ldwZ3zGkcz2k/GZ9sd0VfuMXL3Pp1GVPUxtlbd06d9l0ZF0VZW7FOyIyi7bXxnfBd4Nzo4LveYFwhPCOtkqZYOrIHQv6/pDKvfHRLP1qnZ7+dlTkB3oEOW8nt6LclKv/3xBIZyi4UV0E6Hwb99PcK7/1ZioYHciRGnm38VHO42lqoG/E6zFtFQEq/vSiPNwVg+oT0h928oaf6EXmFcssrYAmQSn0SAe8eESIHWL36nxsBexKGGKSwmta82mpQ/IuMGxwm5h+IS8JomKonnHogooTB553qX1gn236cp6uK/8pCWmJWV//HO3BaeqcfpV0U74DcpYRpcArXM0i4ifcSGDmpggII/jtD+vtzBTbdijjXSBBuwlPZv3nRp6A8fxtiqHmOFk7gYs4xpeGz4dwpz2SIN5xGk3J1dWQ==|920
+}//eF7wcNlZpfktVCnZP8TyQfvhAZoWlM6GLsh/HyCmcWY5ouEF1Jhv7js3HPv4ncm4H8eXDz/QWpBDqv67nvNz+8YuK7QVf53tDJ8SyWHjqTH0dgH7ZQ1CLL8viBOHjfvrfA9+BeSmTQZnjMMKg/oAB9Ag9/s7gTGk5PF4DjTdkZfDeavADDYR/K/e0DW+LApLQBLYt/LVdgI3k6XAnw9mGmHbhVmeU7T82lPUnoMqQO1B7W0w59h7MCulWH051Htl4whiQ9GLZIxVeRgNsRrZ0oBccRBVaDTz7HjVrjD1Kpr5cF8FGRVQNN8gDf2pihq/Wq34cDgDkQYp/EmeeBINmv8JzpQA8gICvs7qFqVvBoomEy4ZK+PGiHfT73NwTQPs4l4ZKrZagJvPvwEW9FkoLTKz7B36B88P6pidcKySQ5wyTGWO8jrn/KTvkVZJaKhAEvVVlDdC3a/EVQ0gmT07DKy2oLmU0phZ3VP6f8/fLwEdNgLLvYC6v8+2i1LXblqMuwajsMK1KewKaDSLoI2EHqCeNTksAqpm8QDiJqt3EX9oMXPkpbIoqjqji0WvA0d6IiSi0Gw4TcLG5FlK+/P5O/+EQcvo5IEu4vgwgkLhfcczWCpoC3dSrQEXcW42XAd14SWGvMttmzjbUmPl+sPZqzkf6oHBlm76GX9X7nc5W5o2Q1X7VSE82jJqR1sttDtWoiyNc8CnB0UgNp35g74hKKrwk4jsq9zBWxUFiadMNJrWffSOw85xTktkpha4sn1FiWWvp9ah1Q7aDVhY4qhLhf5ddYMBqgutld3FFzsnzremvOijktjqKj+EC5RdB9+JVs5gb8CR86rqYBSPgRiH1sbAsTV3Isem5RkTFT3gzo3RuQUyRjKLPeBhZxWNwyftgLh3TqN9sFj3gVQDC5NxVA==|920

@@ -16,20 +16,32 @@
         "FontSize": 32.0,
         "Foreground": 0,
         "Formatter": 1,
-        "HorizontalAlignment": 2
+        "HorizontalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 22.666666030883789,
         "Foreground": 3,
         "Formatter": 1,
-        "WordWrap": true
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 4,
         "FontSize": 22.666666030883789,
         "Foreground": 3,
         "Formatter": 1,
-        "WordWrap": true
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -47,18 +59,24 @@
       "12,1": 2
     },
     "SheetStyle": {
-      "FontFamily": 4
+      "FontFamily": 4,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
     "3,1,3,27",
-    "12,1,4,27",
-    "8,1,4,27"
+    "8,1,4,27",
+    "12,1,4,27"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "MobilePageName": "FGC_维护中_手机版",
     "Title": "维护中",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true
@@ -67,4 +85,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//OXn4H6E3cW4vps78eiRolRq58yDbkKIfOtKySSXiDtx9c2WxATduWXAmXJNGxaRfmbca9YznT32nF1FmQnD4puJJyl0cn00Hw4vioTtFy0wr7iq2tbmAzuph+Ge5zd8yCSZgw89AYJfyptch5cOc2h/CYJe4WKbJyijbxENCkzV47PihONMHVfLDSDZPtDnUm68111qi7pCntpVqifrijDBxYz0InVGszzbGsY7DALmOqN4idPZ2dYMO3Swxqz0t6Y3MvxmYKKcyEd5qbzCMvo7r98eYE1a6Cc7UkmU8aeCHz17pwhRrCm94zioGRyNK3udXpUl47qdW9BzJsyULmaxPYFUFE+kA6ppsTrgRJkqB4611eHMrsWmBcwvZcjJkFdpp40RLRYv2uUESRI1fbOZAdas3mr51uV7C2gaPQGgVR+RXJ9Z1soiJWG8Nidg2d2FRNUdpSD/R3Hz7/66CZC9XIF6i4Kh705xHVeAp21xEdPbHLtrz/71CF6ffsdPJYJp2qCzx2Cgxqc61VsVX8g4e7C9qQo0EbLF3Cf1fFJguluiqlnUirsS0dWnGFYvK3cjCuyZ0niVEz2vuPnmNYimLrOTCJb4tC1akKs4aECtSTPMV+sgH/qb/YGrDcmQtRfHlEZZAHvcJQxsT4rhqcgbQhBnE/FZxNIFJhBD4KjTW5WBqpP/Nl1bsjp/Nb9xhe1qTK9g6GIidoCWg109qVz37z0+7oZh6WrFY3MuTXC/bOJyYCp1w8vx1U3kAjLd7rT1nF0rmtTxbBc7eAKQlTU6JB2t8jYgRiJyAZV4MutOC+B411cos4UKo7PP0MGHfAgjM9NftwVJpdOWex+gKO3jltbiLoQ7CCPDROnP8qimqiXcFhqbVAtQLRqjcqhwR3w1rUeyLHnQBpHLVmyf+yA==|920
+}//9Fob1vJk7v5iO3VRG5qAF8JxPwGmdVl8AvW/49Rq96nPDqvV+cuqGFi9wJRdzGlugVYHVqT1RnXiyyIrbLE/hjmgPdVikWpE/bCb+NpejtH3dxDATq5iYMjMwTci8tbQuZoH+2z9N45IwLS0QOeYBpoXqT1F4kInqKOhr5ED1JLCI7BFE6Dd+6/GN+UbwEV061XS8QFPkDDku6u6idmA20v27ajvZdfoQxZJtLwCnWubrri6KZnJcoJVptodJek9926BoUVkclGSZrD8OANHuFgVl77kSk2/fMlYLyLpvcN2BDkvcOLfLnhcDEkwrdierHyDZSFG+j98eL/ahjWHaHjBoSECWVrQqK2EFT/CozvPgzVtMrXyBC/6RblbkXBjdoXX6dbL3OjGUgVDPxGEcUvw/rzu8tlbsToUXi9fNhySsqUN00XnEi955EWJjSBVu6GHJH+Vb7iCCJAKSsaa75DaFQqTPnO+9pZtqsE60NahyI1i3z6CIosoQWHpStwPiLDfD415Debohz72LKAWmpnHp1gCXcxTaKg8ctjpfbI9MEiaqEY8Go0LKAGpVSIUB6IMDoTUmNWXXResD/iwGic+31XVDmm2KzlAj12YSqMbL4pPkkp/6OFtlpLHRmxnmy4CjjIDR8Iewk6LWA1hJclqLNpDRaHLb4r3rbM2pTJckTa71xH6O/5Yk76Xu5Vc4y96d28ZCRAMfPg/cB5aGIyMD3qEQbQT5prHz7pJZ6BNikHau7HxA82579uVBQ2fY84jjlRCqx/JfNz2OZk/G/7Gpz1WssYk19JKeHeC9mxUfQCUsNw8C1EnEeFOLMeqV3oiROg8uYhLXWrHErjsrrFvmyJnj/wdDY71nsJ4jipx2z6uZl3hP6Jnr+o+kqAX/dGRzYEz5IQgCOddrMPHTQ==|920

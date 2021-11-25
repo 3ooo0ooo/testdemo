@@ -1,0 +1,589 @@
+{
+  "Rows": {
+    "Count": 60
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "1,1": "Param_client",
+    "5,1": "Param_server",
+    "9,1": "Param_Pageload",
+    "13,1": "Param_share"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "currentUser",
+            "ParameterValue": "%CurrentUser%",
+            "ID": "d63f2ff6ac21440eb67a4b8e9107da64"
+          },
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "currentUserRole",
+            "ParameterValue": "%CurrentUser.Role%",
+            "ID": "1bcebccefb6c40f49970e3cf8a1b00f1"
+          },
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "pagename",
+            "ParameterValue": "%PageName%",
+            "ID": "1fd63114699f4a2098910f321d755aa7"
+          },
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "viewportHight",
+            "ParameterValue": "%ViewportHeight%",
+            "ID": "bc74df3e446f4cfeb2f0ac6525708df6"
+          },
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "viewportWidth",
+            "ParameterValue": "%ViewportWidth%",
+            "ID": "c49ccbdb0974469cbcea54b39c94ec5d"
+          },
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=ReCommanValue!I2"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=ReCommanValue!currentUser"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=ReCommanValue!P2"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=ReCommanValue!currentUserRole"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=ReCommanValue!W2"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=ReCommanValue!pagename"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=ReCommanValue!AD2"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=ReCommanValue!viewportHight"
+                }
+              },
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=ReCommanValue!AK2"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=ReCommanValue!viewportWidth"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "Param_client",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "1,8": {
+      "CellType": {
+        "$type": "Forguncy.UserCellType, ServerDesignerCommon",
+        "Columns": 1,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "1,15": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "1,22": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "1,29": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "1,36": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "5,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "Param_Server",
+            "ReturnPropertiesTo": [
+              {
+                "ResultPropertyName": "返回值1",
+                "ResultTo": {
+                  "SerializeProperty": "=ReCommanValue!I6"
+                }
+              },
+              {
+                "ResultPropertyName": "返回值2",
+                "ResultTo": {
+                  "SerializeProperty": "=ReCommanValue!P6"
+                }
+              }
+            ],
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          }
+        ],
+        "Text": "Param_server",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "5,8": {
+      "CellType": {
+        "$type": "Forguncy.UserCellType, ServerDesignerCommon",
+        "Columns": 1,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "5,15": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "9,8": {
+      "CellType": {
+        "$type": "Forguncy.UserCellType, ServerDesignerCommon",
+        "Columns": 1,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "9,15": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "9,22": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "9,29": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "9,36": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "13,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+            "ShareCommandContainerRefer": {
+              "ShareCommandContainerID": "4cfa4520-76d7-462d-ba82-bbffa44037ff"
+            },
+            "ReturnPropertiesTo": [
+              {
+                "ReturnPropertyReferObject": {
+                  "ParamID": "f642c392-f23e-4a15-809b-390d8dac4ec9",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "4cfa4520-76d7-462d-ba82-bbffa44037ff"
+                  }
+                },
+                "ResultTo": {
+                  "SerializeProperty": "=ReCommanValue!I14"
+                }
+              },
+              {
+                "ReturnPropertyReferObject": {
+                  "ParamID": "36102ae0-3422-40b5-99b7-b99de6b68023",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "4cfa4520-76d7-462d-ba82-bbffa44037ff"
+                  }
+                },
+                "ResultTo": {
+                  "SerializeProperty": "=ReCommanValue!P14"
+                }
+              },
+              {
+                "ReturnPropertyReferObject": {
+                  "ParamID": "4202bec8-1381-4c33-90ac-649b9ce8d81e",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "4cfa4520-76d7-462d-ba82-bbffa44037ff"
+                  }
+                },
+                "ResultTo": {
+                  "SerializeProperty": "=ReCommanValue!W14"
+                }
+              },
+              {
+                "ReturnPropertyReferObject": {
+                  "ParamID": "b0c8da7b-49bb-4870-bbfb-41d3446e16e7",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "4cfa4520-76d7-462d-ba82-bbffa44037ff"
+                  }
+                },
+                "ResultTo": {
+                  "SerializeProperty": "=ReCommanValue!AD14"
+                }
+              },
+              {
+                "ReturnPropertyReferObject": {
+                  "ParamID": "c1bb8342-bb7b-45d8-9f7a-9c6f5b5c2757",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "4cfa4520-76d7-462d-ba82-bbffa44037ff"
+                  }
+                },
+                "ResultTo": {
+                  "SerializeProperty": "=ReCommanValue!AK14"
+                }
+              }
+            ]
+          }
+        ],
+        "Text": "Param_share",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "13,8": {
+      "CellType": {
+        "$type": "Forguncy.UserCellType, ServerDesignerCommon",
+        "Columns": 1,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "13,15": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "13,22": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "13,29": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    },
+    "13,36": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "@",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,15": 0,
+      "1,22": 0,
+      "1,29": 0,
+      "1,36": 0,
+      "5,15": 0,
+      "9,15": 0,
+      "9,22": 1,
+      "9,29": 1,
+      "9,36": 1,
+      "13,8": 2,
+      "13,9": 2,
+      "13,10": 2,
+      "13,11": 2,
+      "13,12": 2,
+      "13,13": 2,
+      "13,14": 2,
+      "13,15": 1,
+      "13,21": 2,
+      "13,22": 1,
+      "13,28": 2,
+      "13,29": 1,
+      "13,35": 2,
+      "13,36": 1,
+      "14,8": 2,
+      "14,9": 2,
+      "14,10": 2,
+      "14,11": 2,
+      "14,12": 2,
+      "14,13": 2,
+      "14,14": 2,
+      "14,21": 2,
+      "14,28": 2,
+      "14,35": 2,
+      "15,8": 2,
+      "15,9": 2,
+      "15,10": 2,
+      "15,11": 2,
+      "15,12": 2,
+      "15,13": 2,
+      "15,14": 2,
+      "15,21": 2,
+      "15,28": 2,
+      "15,35": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,3,6",
+    "1,8,3,6",
+    "1,15,3,6",
+    "1,22,3,6",
+    "1,29,3,6",
+    "1,36,3,6",
+    "5,1,3,6",
+    "5,8,3,6",
+    "5,15,3,6",
+    "9,1,3,6",
+    "9,8,3,6",
+    "9,15,3,6",
+    "9,22,3,6",
+    "9,29,3,6",
+    "9,36,3,6",
+    "13,1,3,6",
+    "13,8,3,6",
+    "13,15,3,6",
+    "13,22,3,6",
+    "13,29,3,6",
+    "13,36,3,6"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "母版页2",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "currentUser",
+        "ParameterValue": "%CurrentUser%",
+        "ID": "51a584444500491f8b074c856ac5cb05"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "currentUserRole",
+        "ParameterValue": "%CurrentUser.Role%",
+        "ID": "2572fa51a1dc4dd8a0b0eefb6d328655"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "pagename",
+        "ParameterValue": "%PageName%",
+        "ID": "3865fc501c444a26a03f5555645001be"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "viewportHight",
+        "ParameterValue": "%ViewportHeight%",
+        "ID": "15525bc9534446d1ab95ff1a9d929e8d"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "viewportWidth",
+        "ParameterValue": "%ViewportWidth%",
+        "ID": "1f0633dcf18740f98d132f169b1266fa"
+      },
+      {
+        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+        "PropertyItemsList": [
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=ReCommanValue!I10"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=ReCommanValue!currentUser"
+            }
+          },
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=ReCommanValue!P10"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=ReCommanValue!currentUserRole"
+            }
+          },
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=ReCommanValue!W10"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=ReCommanValue!pagename"
+            }
+          },
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=ReCommanValue!AD10"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=ReCommanValue!viewportHight"
+            }
+          },
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=ReCommanValue!AK10"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=ReCommanValue!viewportWidth"
+            }
+          }
+        ]
+      }
+    ],
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//1LhP2AUEHwVrZvAEv+fXvykVWdcTnbrr9r9QkUkAj/JNNKIzBdi5fy9KOXvlMdDB1yVsmS4rb7XmAf7WV1v5mQtHUQ/YXVe7RhuB9jcaF0/Ib8QsN/fSs/UbghMDr0VN+VD02UZUvdCjw6zVcPMfjPvWTMUVNyiNx/MwQCz2RvyJzU/v1armmG67eQeoBp0R2nQ46rBOgHi1t95MqFqkAnRvNBg0A5WcvPt36x8zFQErKrFHmHCwjQEgznGtrADpcGzTSLVqUz7eA39KasmNIMWgndrV8izIX7FFuKd7BslMXyIB83LHVxKS8GWtFliAcBdu91at4n5wppk4l/QM3ax3vWUXqXJLdmXb2Hsi9Na68tFDbdy/Vk2EPX9xl4YjD9egwuFlohIcgwne/9EOaKIZoa9oql317IL5krU1wgcz2xK7Vt52rKK0R7NOzPXpBeTgnDkzCnMAwCjIjBgFDbCzJE07BJIAb+02TWXJeAxA6hbKtLKF0y8J2YIBrhgqRvO18Yqm79A/aXvdl71iNa90dqt/dBXOogUwsOprqjNYwOjWHlZyTZlt4lM1ookRBAls6WPAaTCOk7NzdMjcORxilC4G4f4plKzb5BFKGVpV89kWLRub/lX7wesYsUXV8IoT9pXcZxIR2cBdn2Pu97bWPpucfTYEeZeD94xoxMp+rlLxEpvfH6oQuZj/8/mRKGBZ7BxRagQWhjXIU7p/Zuk03h9Z9lrRfhSwfh9LwRGEayveGWdQiVPewKiFuzD6gs2hWUCFRRoSskTb9PP+YFrOoI/H1vbHF1pXDrOO11t/GJBvTKsKRmWt9uR0e5q6V+2jaFuREu/bCCKi5HiaSXbSiYt/LNxymaJPWqRDrQUFLngu67R8OiEmfMXDqEip6V/Bzde+bwyRVlzSRTmVfg==|920

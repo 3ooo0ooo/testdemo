@@ -1,1 +1,124 @@
-[]
+[
+  {
+    "ID": "4cfa4520-76d7-462d-ba82-bbffa44037ff",
+    "Name": "模板命令1",
+    "Returns": [
+      {
+        "ID": "f642c392-f23e-4a15-809b-390d8dac4ec9",
+        "Name": "返回值1"
+      },
+      {
+        "ID": "36102ae0-3422-40b5-99b7-b99de6b68023",
+        "Name": "返回值2"
+      },
+      {
+        "ID": "4202bec8-1381-4c33-90ac-649b9ce8d81e",
+        "Name": "返回值3"
+      },
+      {
+        "ID": "b0c8da7b-49bb-4870-bbfb-41d3446e16e7",
+        "Name": "返回值4"
+      },
+      {
+        "ID": "c1bb8342-bb7b-45d8-9f7a-9c6f5b5c2757",
+        "Name": "返回值5"
+      }
+    ],
+    "Commands": [
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "currentUser",
+        "ParameterValue": "%CurrentUser%",
+        "ID": "874fb47adb1b4db380a0ff40355f4fa9"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "currentUserRole",
+        "ParameterValue": "%CurrentUser.Role%",
+        "ID": "a722a124fa964285ba1bcb0fa6a75abc"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "PageName",
+        "ParameterValue": "%PageName%",
+        "ID": "4294623db47642869b470d0523669c7c"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "ViewportHeight",
+        "ParameterValue": "%ViewportHeight%",
+        "ID": "261f6dd28efb439db15e1781e6283177"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "ViewportWidth",
+        "ParameterValue": "%ViewportWidth%",
+        "ID": "1a1a1a5f9d534e46944690a24e755f80"
+      },
+      {
+        "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+        "CustomReturns": [
+          {
+            "ReturnPropertyName": "返回值1",
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=currentUser"
+            }
+          },
+          {
+            "ReturnPropertyName": "返回值2",
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=currentUserRole"
+            }
+          },
+          {
+            "ReturnPropertyName": "返回值3",
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=PageName"
+            }
+          },
+          {
+            "ReturnPropertyName": "返回值4",
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=ViewportHeight"
+            }
+          },
+          {
+            "ReturnPropertyName": "返回值5",
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=ViewportWidth"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": "5d00bd2d-2eeb-4cd5-ad47-e22f34de8626",
+    "Name": "MoveUpDown",
+    "Commands": [
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "param",
+        "TableValue": {
+          "TableName": "表1",
+          "TableValueType": 1,
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "表1",
+                "ColumnName": "ID"
+              },
+              "ColumnName": "ID"
+            }
+          ]
+        },
+        "ID": "abe31602464140e7af069f7c27ae250f"
+      }
+    ]
+  }
+]

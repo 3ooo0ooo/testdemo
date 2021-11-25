@@ -1,0 +1,85 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "param",
+            "TableValue": {
+              "TableName": "表1",
+              "TableValueType": 1,
+              "BindingInfos": [
+                {
+                  "BindingInfo": {
+                    "TableName": "表1",
+                    "ColumnName": "ID"
+                  },
+                  "ColumnName": "ID"
+                }
+              ]
+            },
+            "ID": "04fcb9704fa548588b88764150f39495"
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,3,6"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "param",
+        "TableValue": {
+          "TableName": "表1",
+          "TableValueType": 1,
+          "BindingInfos": [
+            {
+              "BindingInfo": {
+                "TableName": "表1",
+                "ColumnName": "ID"
+              },
+              "ColumnName": "ID"
+            }
+          ]
+        },
+        "ID": "826f3618c64b475aae8474d32e8fd9dc"
+      }
+    ],
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//z+KuJuIY6hVkwJpqUPjHoAqqqBwCZliRfJG4p8xWFIdtrjsXPULc+lxmeaxTGR5/4G0nqFS80yGJtjXcHoGAKW7MVtEoZgNRcXz+s9M4l7EAXQYS9OJ3Uv04gPeqpxmPNPtp29cgL9no6Mgh2wlV/VKwVZYK00jRWaCG+rLo6MvMHFM8BxYtJP/8Daolt50wrOezvzyOW9U9g9y5sop35oZxCZcweXZJ9Nt+GV/B+vswvLRVB97oAkJDPlhY6tbsk58bz9+AhzM1Ur+vut0Y6zufKqd6ltyDKAlVU0p7eIjoAc2KB/TvA//nBVex4uRGQAfAX4bloUTAEyA//iybMiVwFog+uFxHiwt2UEEKcOHU9C4xGZ18Y99GtmFktoUMl4OEWHDsnBV3UzEvJCQe0GS5mv6zRQ82xGfsgQg5A3gLDqAsAKWH+5UVt5THtDM++LP7TldgbUapLr5ObuE76rll1JR0neD139dS8PqQfE1jju5PPjZCpaupkCcSzFYAEDVzmzhb43kpHvtVsE56Qg2mbGzNZJfAVPWnWdoWrYqHgk/lRXhr8oMf9CtR/eAMEEplPwKnl6/y6xLezkdrqiKL3Sssxw6YpFpm/rluMgVqtywyyLUS3Fdx7zl+yKR+CozazyDNO3TZQ8qXcWZkSFg1KsY+f2QhkpdSTTZlI+SeEsQSHGB4rEQCgTc0hMu4+TPx/qSIDxJKbf98kkAOBiL3+XaCTFLLA9htLYnFeZB9zGYkRypm4ZO6J+xlQiyeyDb2M7/1vBZHPN9+aVr3EQRlczdaBUzxA9Z3UD/FDs6nVZD+0qwjnzQfozB+IXnxGBFId215PDwIDUWO7YJX2eHT6zD7pB83Q5lq9XzWozMX2OPqD7fFivHn1ZVMtrL7H99t3B4rigjcBS6nY/PYrQ==|920

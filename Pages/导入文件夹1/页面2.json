@@ -1,0 +1,220 @@
+{
+  "Rows": {
+    "Count": 28
+  },
+  "Cols": {
+    "Count": 22
+  },
+  "AttachInfos": {
+    "2,2": {
+      "CellType": {
+        "$type": "Vant.CellTypes.NumberPicker, Vant",
+        "NumberPickerConfig": {},
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 4,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "placeholder": "请选择"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "0,17": 0,
+      "0,18": 0,
+      "0,19": 0,
+      "0,20": 0,
+      "0,21": 0,
+      "1,17": 0,
+      "1,18": 0,
+      "1,19": 0,
+      "1,20": 0,
+      "1,21": 0,
+      "2,17": 0,
+      "2,18": 0,
+      "2,19": 0,
+      "2,20": 0,
+      "2,21": 0,
+      "3,17": 0,
+      "3,18": 0,
+      "3,19": 0,
+      "3,20": 0,
+      "3,21": 0,
+      "4,17": 0,
+      "4,18": 0,
+      "4,19": 0,
+      "4,20": 0,
+      "4,21": 0,
+      "5,17": 0,
+      "5,18": 0,
+      "5,19": 0,
+      "5,20": 0,
+      "5,21": 0,
+      "6,17": 0,
+      "6,18": 0,
+      "6,19": 0,
+      "6,20": 0,
+      "6,21": 0,
+      "7,17": 0,
+      "7,18": 0,
+      "7,19": 0,
+      "7,20": 0,
+      "7,21": 0,
+      "8,17": 0,
+      "8,18": 0,
+      "8,19": 0,
+      "8,20": 0,
+      "8,21": 0,
+      "9,17": 0,
+      "9,18": 0,
+      "9,19": 0,
+      "9,20": 0,
+      "9,21": 0,
+      "10,17": 0,
+      "10,18": 0,
+      "10,19": 0,
+      "10,20": 0,
+      "10,21": 0,
+      "11,17": 0,
+      "11,18": 0,
+      "11,19": 0,
+      "11,20": 0,
+      "11,21": 0,
+      "12,17": 0,
+      "12,18": 0,
+      "12,19": 0,
+      "12,20": 0,
+      "12,21": 0,
+      "13,17": 0,
+      "13,18": 0,
+      "13,19": 0,
+      "13,20": 0,
+      "13,21": 0,
+      "14,17": 0,
+      "14,18": 0,
+      "14,19": 0,
+      "14,20": 0,
+      "14,21": 0,
+      "15,17": 0,
+      "15,18": 0,
+      "15,19": 0,
+      "15,20": 0,
+      "15,21": 0,
+      "16,17": 0,
+      "16,18": 0,
+      "16,19": 0,
+      "16,20": 0,
+      "16,21": 0,
+      "17,17": 0,
+      "17,18": 0,
+      "17,19": 0,
+      "17,20": 0,
+      "17,21": 0,
+      "18,17": 0,
+      "18,18": 0,
+      "18,19": 0,
+      "18,20": 0,
+      "18,21": 0,
+      "19,17": 0,
+      "19,18": 0,
+      "19,19": 0,
+      "19,20": 0,
+      "19,21": 0,
+      "20,17": 0,
+      "20,18": 0,
+      "20,19": 0,
+      "20,20": 0,
+      "20,21": 0,
+      "21,17": 0,
+      "21,18": 0,
+      "21,19": 0,
+      "21,20": 0,
+      "21,21": 0,
+      "22,17": 0,
+      "22,18": 0,
+      "22,19": 0,
+      "22,20": 0,
+      "22,21": 0,
+      "23,17": 0,
+      "23,18": 0,
+      "23,19": 0,
+      "23,20": 0,
+      "23,21": 0,
+      "24,17": 0,
+      "24,18": 0,
+      "24,19": 0,
+      "24,20": 0,
+      "24,21": 0,
+      "25,17": 0,
+      "25,18": 0,
+      "25,19": 0,
+      "25,20": 0,
+      "25,21": 0,
+      "26,17": 0,
+      "26,18": 0,
+      "26,19": 0,
+      "26,20": 0,
+      "26,21": 0,
+      "27,17": 0,
+      "27,18": 0,
+      "27,19": 0,
+      "27,20": 0,
+      "27,21": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "2,2,8,11"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "母版页1",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//Kz3d6TJDpaYWFjAsrIAMYv3Nt29D0dNlyKlvjqrvgkecv/46bE0AlgfgvYX8c9/7J8Toi1kWPbDAY/3uErSqLdA+tI0tWQKpxU5+W/Xj9PcS1svBY8zodsnTKE03C8Bj/FN5gntGMFYS9QUXp8ywRyCrRvIpSQjslv78t5BGbdg3rIZDikPY9d53hSYlfFDxAVLtCF+Ola0/sXMyUcFlbQ4EzKiJ4zIom/mUywyjCXg2f/EZPQrmxIMm+i2tk7HGQwLkiWoc9jcjkiey66qzQJ+mrcDB6wWEdyPKgHnmm1JLOpMvqHlB3GO3p5kvW9hJSev85N1JwrJkEpmnG/YiJVXOpnfpRTbhnIkxtDtka0SLK47g4vUYKoW6tFNMthyS3NhZo0/fIrD4VPndTGAyUsPBFHwsvR4KTu/yoSVRo9r1jqIz8ChFyfCydoVt51SVH24a2vgQPsb/gUy9IHGCVfzhTtOMaiQ37UDqqZr1upf2gqqv/wSJ4tLk5dQN8IRt7uFE5OjfjOxcQV8l6kEWjEQx7ICoMIxik5vLnLZWfPVVMzSKEz0sSM5hrROP8DfMyFVMBW020uxZurvPJ0l4r/LQZbbh5MhUBAGsCnEu1whtJKzRx2tRQKulQKoRMXiNyrH+ntCRaGJ29gVhRtDFL1xyo8YTkMl9z05y85IxVqlZ+dA83iIkzzkr9bIFTlm3zrLoOyQbB7cEfJ1BEQFXjZMO9zjXuhPnOSgqGlzIHs0TYDSoGMfiXzgqkTl2f3JFETTf2T/tlzolq/RoCvLNbzJaA1R0EdpXx2Hg8UpIHDwWrfcBsle4mV0tM1PizOE60mW6SX2LeDPHEDXK6IvAPIT+QxvNh6pRjSNrwb7nnTetGw4xmYNz+kNJ5KfxH5ky2zOfVjU/0AMFOPqUcxUAHQ==|920

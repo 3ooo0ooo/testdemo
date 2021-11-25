@@ -82,24 +82,44 @@
     "Styles": [
       {
         "FontSize": 37.333332061767578,
-        "Foreground": 0
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
-        "Foreground": 0
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 13.333333015441895,
-        "WordWrap": true
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 14.0,
-        "FontWeight": 1
+        "FontWeight": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 14.0,
         "FontWeight": 1,
         "Foreground": 2,
-        "HorizontalAlignment": 3
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -121,7 +141,11 @@
     "SheetStyle": {
       "FontFamily": 4,
       "Underline": false,
-      "Strikethrough": false
+      "Strikethrough": false,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
@@ -140,7 +164,7 @@
       },
       "IsAutomaticStroke": false,
       "IsAutomaticFill": false,
-      "Name": "ceb28d52-85eb-4188-a272-9c46f964710c.png",
+      "Name": "5def4083-9fc6-4075-a832-5ee35d810232",
       "Location": "200,80",
       "Size": "540,360"
     }
@@ -148,8 +172,10 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MasterPageName": "FGC_母版页",
-    "MobilePageName": "FGC_邮件订阅_手机版",
     "Title": "邮件订阅",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true
@@ -158,4 +184,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//kB8F6cCbf5MpFpntOKPLJNwI2j6Pe02JgQEdk3+k0/wQh6DjHwuBeu3mtR6CH5oRw6V0/CGarUlHtXsTixLcDT1QU8wnjLT4/xA0g/douZJ9FHHCd2T+t1EvTis/21YLzwyE45rXvg/gTGoX2QXYR1Ky0oxUUVVKCYwZ8990SrOCT7ojPFtX3EVx+zRL4KXUR1PgXFHLAdVF7G0r0w5oUsa7Mcj7vCirnSFaP2Ju2826CYVUSIgVF4T1aMTUhRv87pxYcJybW0/DmJNMmp5XxgA+0OtYUQsjs2gwM0KqjO+A3s4jeMevg/tW30Fv/a9dm6DDz592MOmCprxzylWytiJGgzPU8MgQghXDlck1EkeVni70EthMR6OFwCxEjEXvAPHhUOQyhX7BXJhVMVRFfx13uI5W/9v7dWDc0LtSq+mcpAptRrQRwJmVUnoG+fHTTgzFQEpqQ7WMbmWLyKhcSd4nXGjIM66o4txxnw71Cxi3N4oMY2lU9Pyvp0ynTPq/iMvmsAUkfdtOPDNua0uq23ANcc4RIgpHRUcDNjKT0BUPuqGODJ8GWc39A+ZQFnx9E6PQhIv0x21kIbmaAdVZMYM0j9EnZyo4k1TuCdeNiRFcH+xerbdLlVnonwYlm2/nbvo3t3ox1EgbsW5wCe6sQc6dPJGvojb5EE1R51O90w0tPdWXvZK/1k8ToEAv4S0w9TMK/4XHoaKR28EEeLmmBTIHwd5z6Mu4grLlwfjOZoldFtycSHPCmEI7gf+AOAoca3PnwZ8+AH31ziArvvJ+s5jk800d52D0n7QAHo4F/vwhuYV+OpNmK4WTGDMMafcvcbF+7JCv1e48Hg4x4V99QrAmjqg7TvoYAlAX+hZAnZ5lwTxbFq1R46ppoRspYE5m44ovfY4hu64peeCr2rUttw==|920
+}//j8MpNMQWHPidzTxeCyscXkrBJFq+fT5xngm3Fuy9lrx26pjgtUl1Pqx+5kYbkfJ2F+nHN8hftxjldizqiqI7VtsfSLft0RWokLV153cE7z2FnyG03E/ysJ5QXHCp3+gTq2spB5kxoPZ41iVMYOkP4qEvnlYOTEQFYbu/xpyGhvZB1aNwd7b4sW6Tikvn2LK7sOq4BC30tCNIe+TmQblDTStJElP4qA5k64/QIqLOMRuPBl9rBd2oHi04WlRKbm5rV+QSjSJunDd6o6Xh9P/0UYc++VmCf1sCetmNe5rd4zvPlzWP0sNtuTpuotT2HQgXG9/nWCBgT2OhhBdPc6vD89NSA3H7Hz18oEazZWDA9zwVvikrbEBRnBODY8coUOAkx7YjDGDC/Jen19OsYqCLiNiHUj+U54rCOi58triqaeMHwmAEhIHsLRoluHOzHgFs3wxN55CoGexg3dJUDcNpxzeFAPZ22ipeJHAd6ohoatSqBRfRVg4Y7okISY9okirxCdPocv1/YfVoxUJchgk2WVsEU3AY0NdYi3CMrXnfhNnDTJymu08KGtXpC3eZnhtItdQuBiiOtw4+gM5DIVuKCs2dmk2YEvWkNJc2bZvZ2Td6LJdPw+vfgt9UaXvs1Zc1HPOG7QUl1TXKjzpB8P8R59BeRcwQrAMn7yplEYQkuR+4niViYjeBN9VipqEa0icGUApoFjAvS+/Bdu0sijLelecyvQ7i7jYhk4n0B03keTpWFRLW0XfZ533rOZSjUlpGq8R0EAetX3MmauJWFBFuDJNlJLRG4SPq5hoXElVXcOIzwC1zdVXID8DgDBsJmDyg72Iy2ejGGoGx8WHcHHZ5ABc/yArt3ZqTbLfr/qCHulh/pTtj3UP1cIrKNiZHftDXw7fWiXT04BXzC92QZfTCdA==|920

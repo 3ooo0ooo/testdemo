@@ -1,0 +1,34 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "AllowRoles": [
+          "FGC_LoginUser"
+        ]
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "param",
+      "TableValue": {
+        "TableName": "表1",
+        "TableValueType": 1,
+        "BindingInfos": [
+          {
+            "BindingInfo": {
+              "TableName": "表1",
+              "ColumnName": "ID"
+            },
+            "ColumnName": "ID"
+          }
+        ]
+      },
+      "ID": "9af69ed507184faf875b6930141ba6cd"
+    }
+  ],
+  "Name": "MoveUpDown"
+}

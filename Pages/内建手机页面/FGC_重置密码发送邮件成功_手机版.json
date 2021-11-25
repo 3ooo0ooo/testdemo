@@ -34,19 +34,31 @@
         "Foreground": 0,
         "Formatter": 1,
         "HorizontalAlignment": 2,
-        "VerticalAlignment": 3
+        "VerticalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 14.666666984558105,
         "Foreground": 4,
         "Formatter": 1,
-        "WordWrap": true
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 16.0,
         "FontWeight": 5,
         "Foreground": null,
-        "Formatter": 1
+        "Formatter": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -69,7 +81,11 @@
     "SheetStyle": {
       "FontFamily": 6,
       "FontSize": 13.333333015441895,
-      "Foreground": 7
+      "Foreground": 7,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
@@ -80,6 +96,9 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "重置密码邮件发送成功",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
@@ -89,4 +108,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//k2CTU3XsT+HD9E76dd8hFPOWGBfSy6a/yABxv28OE3Pxjaf1Y/mdVoU5zn9JcPnPCaqkGxIW92tL+NzkA3x5nZL0BK/MVslXPzXyAo1vfqUHc0SPqi2FojxRvKcDCtBoNQfQSbkqLs/xI1ZHmooSe+tDg6nFSkne/gKaO74Qk37+0xmqqrJpwGlQWQ0LdYMVPZ+zU//JdUEiQCwpCi0TrvSA01z2hXewHWWHVPcylYPL7pA+IrXRh1LTILTiAol5mdTgY4afixQLFSYBflPXFVXsoWWVL1C89WIVRbqEaI1wZiu4Zuruxi2gfQwSGqvGa5XCFqvXtPXSs3IYLX+j/Q2DmunooxdxSYMI/IT7uLLoEM0pntDGiUqprgEGwzP/SJ1Yh51I2lUaw/jhj/8XgD7ENaZFmns3qmSkhLiCTgBQ70syRNMqjQg32qyjFmr50HTC/x1H7A01MxaEXMAjq1vyPqLBMvY0Nnn83uYTMZY1NXqomlVw+cwkH8tU/VMDZbd7mI+TcstJM3a2WlUUsqjCQLp4177DMRPohyzRS9sYU8ICqIRtwUTaIXxSvQ4V8ZvYJ3XUUOQ9u7jyntSL9mHBDSNlxUDamnmSRS+BtUT8hTbTNUo5o2q0pO3jdfMQmrzf5mSoFncN8OjzNHdorC5pmEvGyLhBwniGbV2OZZasLOyRUcK0ebzCuC1DsSRHjJDA+IaXV4xBEb1/qK84yuXtPV3BR5xWug4XX10CrVkNr0guBECjmYwUlM7spLzvBoKbZP/7frH3XvDDrDE9xI1LngBfAUENYI2JOW+b02ye6Xv78tBjv6OQ5urHyp0t9a+td3PHXmSnK5ir62ds8I3gEzLdjEhCVYSvcik4ZwdVqQHU+jp8Bs1/ZsD4h/5z1nZ3q+ONhjDettNEQ9ne7A==|920
+}//J9dkbJp7LdLzxsUY0UKm0s2bfdyqkEFWXCQRV/qfnrql1k84LPTIG0t4U0GKj3LrOA2yzJU/opyxgRNSp1UH+g8yeWo51/XVeLxYlxN2yYmO48S+A1UXstLDVrw65P9gM1/2xdS2QBi3CGDNlVKqLcA2vIZ8KQjBJ3r2CYyqg+vD2WRMI6lSSzkWjcbPQrtW7jDFigsoO6fDLwVIYA6Ll15zW/Ajigu2srl/KLE+IDagWl2waHx/My75tAqNMQcGxiS1co9uEx2/4RJBGK3+IL5Tz+Ti8EBHoQb9kLv8IYDP1ZEp0pYBI7Vw0N6hx726hiwU+oEHdaSk6AfDHauppEEpI+vSL1319uWtcEVl7uP84AsrCxTEZ0pqj5XCRqXpk+jgZ6RGg0y2iTUkpF2d7HxZBbkubxYhF6MjHRapwDC9YXcwWAFrT6SZFqWa1JT2wHeiRQrFbBC1endGHl8ZnqS58rRo6L5bN/I+dll3Qxx1TVLc4VweBvbb9RBuS1EYcj9eGtRBM67iHtY387Wq+IWQV5lHZ8cFlquod3Wq3KyklAn/gDmM0egYNB4Z36e6vyTYl/4CAqHxbf5Lt7jAmB1wNyy+ZE23vy2cr0GJTzyjir2c4wjY6F2dikVimc0PoNgxeaqpbMN0n5gdYuUxYTl4mD/PK6r8HAXscSLGjoNcvB4Fq01numfF7aqFv3imYI++ksCkDi0T6B7EpuHM3nk8fSX2BeuLceENEZU+3awpsIJtqN93q4M0hg58q/1xW+CXjdxUDq5lgibiLEn+mqZxnX/UenSPrzKJigS5W8pP7Roqzo48T5jXiXQ0ur7lru6DIGePyg91303zLgI83SYKQ40G97mhVZFJX8lIFYCfNl768B1IuWl50BtDSnkSxL6vh1KzbMhLaAkOm4RMeg==|920

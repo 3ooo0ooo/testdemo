@@ -93,23 +93,39 @@
         "Foreground": 0,
         "Formatter": 1,
         "HorizontalAlignment": 2,
-        "VerticalAlignment": 3
+        "VerticalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 14.666666984558105,
         "Foreground": 4,
-        "Formatter": 1
+        "Formatter": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 16.0,
         "Foreground": null,
-        "Formatter": 5
+        "Formatter": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 16.0,
         "FontWeight": 6,
         "Foreground": null,
-        "Formatter": 1
+        "Formatter": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -139,7 +155,11 @@
     "SheetStyle": {
       "FontFamily": 7,
       "FontSize": 13.333333015441895,
-      "Foreground": 8
+      "Foreground": 8,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
@@ -153,6 +173,9 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "修改密码",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
@@ -162,4 +185,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//q63/AqtF/JcfbJkIaaTFi1GAdJTl98tFMq87apa72JxjGtPt1GkFAH5rMCVKr6UHDvBe2HZeVdhv/6kx5jluGYSyo9qkVOhTq7BsOQbWnKpFoO4pRF8c80l/JCnAigggNTEYzfv/Z2c6AN9+m33R7AwfNMDIbjJLWXVQdEW6FXkNfsXxK+5nybRX7B3wHu8bYnUUkkV2ivOphJ/1NlQqwUwOrmiVSuLHYHol4d24CpACthWUdePENl0aRsXDadYCHk1PRLgTqFD92SDhUDCZxD5L15XhLeFP/CWD/mEgD1Q+KztQQfyjxXhdZAPLUrjMlC+zgolgxKqoksbJfMhyZ3UXHijl3x0bCK4lsKpkok7GhtlxsCKv6TIbzj74LZbfnSLFDWCfLsW0EdLzmyalTPUOafAljEbSrEbGmU4qfMdqwQr0sPMtVytqTvDV7HICB98G/z30Rm7yfYb5aXLgcfb5U9o0xCCXx1MoXjZFDXl+rLs/oNxmyYC1HwUQ3bIvvykhe3XfyaRysiYFL/LPXvDNZa17/v4aiKeZ6+9sIlPJKKgGDsv/zXM6DNLlO6nsCnv3guzD8bydAAejxRH0vLWa7OyfUQ7y5RkKD73GgOUeRYoJHIGRRCYu8p8QY1W8YB4aF3zOqIIgW5x0CFEXOGVdTZCVWfCimW7vCH6nyJHzR30roRbAog8EDCCkg/cAy9Ud4JFS0UzhLqzjQZrkRgYixcBG14uGuUoyAuTyYzicV/so1PIQ35m9Gy+oIHV/Ewe+PTN14HeH3wwA6Hl6UdV5f1eY6OwH/XX9eQezulUHyWR8bx4qDL6vW5np2uq96SyUTLD7Dl6R3AcMbLrqZn5pTBQHh/UQeBEfKEDl388oH3L1dfr+dhcac8t2ixJuV7EYmG/npUbFT62SfP1wWQ==|920
+}//gjLCywwcIypciqssD44Zm7YS8vhC4L5E+P+ZDcbNhJGjPJcPZ2CB4MozmTAm/ue+l5FWvR5C53EMyH3aIOSJbc0nFxSrvQcL11vJQGTvSOa6EVR/7kMlbvP1O+d1gPQ4jncVH5LRPkseE0Qhj677zVBNss7RSMQvlS6cuKTd25e7J6aradGybJNOo5xbL8xrKMazGVEgeeFFvlKendl5vIEfiQn/uqoq/g6r+3YVItj2kNC6e+/xzg0fQPZiNCLRhIJnqhgaH/DGWZx/fe+KSSbnQe2Kn2aN/vSDDS05CSjmBJ2IjtzL/tkJVyi1X8klotBlmkBGpFeFYklUYVyTr1EhjlbvDVqyfJl/S7wbuEEq2VtTOITTvO2vOP89drJEadrNLu1phqc0hrM8Lb+L0aeQchhsHrBXBt4o5PfvOufltno1O7wTRTmQLS184pj/2/N8oHoNw7DXEwnbSc4pS8s+T7Rpv3DTchuMVHqS0ysE+AfGnGFBJmkB1Wt4yYw8Bv6J42emuYetAKA/zRfsrOiSKVm9f1KYstHAOBMAhksdiFm3NwAa4uG15TYdg9ePj8ob7G6qlToDk26+gH/5XhCdtyHT5Y8dUwKFFNvomyYcWdpZxX66dXRik2RXcHk5i6waHWJRigiSmfpJ0eaPzGvcnKZ/mgw7Yx0xiOJsmmAuCvpmzrI1W8Y11n7tOx0v+fqNJczhcAZDZgkFdkid20suGtZewJGISi6pZz1m/3fP++6RI1++QpssOY96jdLRumWlLkRKMqNNP0vZP4IS6AFCsRohWj3WO7nry1Pc8l8uoIWQFr9z2eXQd1tG5OLf8jen6TqNH9PvPDtbLiE/BcrJOfbQnRSdhul5rEBg4gIsDKgnTLAJKEizpdkmEug6MZ+ySYqpFGIfJeBxoiosNg==|920

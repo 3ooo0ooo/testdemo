@@ -97,29 +97,53 @@
     "Styles": [
       {
         "FontSize": 37.333332061767578,
-        "Foreground": 0
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 14.0,
         "Foreground": 1,
         "HorizontalAlignment": 2,
         "Underline": false,
-        "Strikethrough": false
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "Foreground": 3,
-        "VerticalAlignment": 4
+        "VerticalAlignment": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
-        "Formatter": 5
+        "Formatter": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
-        "FontWeight": 6
+        "FontWeight": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontWeight": 6,
         "Foreground": 7,
-        "HorizontalAlignment": 8
+        "HorizontalAlignment": 8,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -151,7 +175,11 @@
     "SheetStyle": {
       "FontFamily": 9,
       "Underline": false,
-      "Strikethrough": false
+      "Strikethrough": false,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
@@ -171,7 +199,7 @@
       },
       "IsAutomaticStroke": false,
       "IsAutomaticFill": false,
-      "Name": "5eb739c3-15b6-4d8f-9c34-066f9a907711.png",
+      "Name": "cd9d7e84-3b75-41a0-935e-5d554a4a851f",
       "Location": "200,80",
       "Size": "540,440"
     }
@@ -179,8 +207,10 @@
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MasterPageName": "FGC_母版页",
-    "MobilePageName": "FGC_修改用户信息_手机版",
     "Title": "修改用户信息",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true
@@ -189,4 +219,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//oIi5e9Kg9IKkew8OBCuvBNn5pbhTpUHgb1D2ZK2jb81ssFNHM99Ubpa7j0QmzxrMDIwe6w6zO9u5OIkEfwmM4m4mGJW9Bnp2AlKkZreakhmqi/7DNHfiq0gfxVpJt2TP2k6VPytsZE8yfrqiYi1zXaNAOUHBhl8mW7uUk/+0FqO6BPrY8/YY/fRJC0Vncc1wYpUrsv1dQIVpb3A1zbYmp76FmzQMdxqhsyiD5j/SF8NVMMmLp43be2v1NnqnpW9FqaI9qQlkO3ljLJTSN16rFtSHJNNWIeuj4rQKO04j9Umk3w16ZCo+EnddkfmkPtuu8whUmb4Mv5S/nIO+dnlS9EnMGmNuy6Xnx4P7rMsi8pOiQEWD+y3YoBZ++HU24K9Pxupwu5o/4JutJ6ZaWtli7Lpa32heNSg+k1BgrvjDrQMZVgYM4prCxhlgnKgAWfTY4/n5hoMcr9qK4Ot6QEZSZcbJAzImGOV8PeGoGZo7Qr3PcRkzEipvfV67GTl8gsvDzFsk2iQ8aHBuU+AxmqwjG005DN4cEmLnVnamMgUWVCNNRwULYCdFIpCalKfnUM140+pwSx53d1UxBYmapMRkhrmWeriyrczrFKDFyMK1B/bdzoWghsVih4EohA6TRQmeD0rmhhRPUxmjU6qd25R2ONHRxpMind0a/nW+2yZ6HulRgy3Rg0qFdpxFOWj4z8E0cVk1znbwd6fhEKQT/sAcVPm5FfFOtyc0p7+jn14JHJRY+gLHq/ZpzTTi5cUjAjDla8qmI1+uuA6hcIggt8DVov7NYvMg4O7xFrrVuMpETSLBLALQFMUAmkDtS3qsG83/BDSVHWoGepfkq83szySrIRNCPjdxRe0G0P8BrFdyPQW2BUXBR7c9BuC2ecJpdiK5ZKuGKuKIWARLr8QBpxYk8g==|920
+}//aXCwgq/D7pXVdlKdSF7pgv7RG8WqBL+no12D8xprFNzno93lnt1en0mln1VvYa7NYp+5eZvfiGq/RA2CD9Z6fTt5C1uCV5MVQXsNt5rlW5Lye6ynx1zsjNgxbbcO+EJ3KxmqNdxBxwu+AJrNaMokUyzcpKPofWjLtzOv+UqwJ+Zs57w+GPefVOECc4wd7KFituTWZGqTTRkPMmEu/zjrS7F8Ib+JfMKBBRY6N8AlqMYktoHBBtRhH6fixK33Qx5DNM2z3LMNAI4FnwMmUio1aNr8EdlIn/R8GysSzkAito3g/AEN94Rrje+APoXxKwUN5tsITLx6SP34uqF1Uvq0LTmmHm6HKc7yOb63YmuzRpY7dLSIuLUyUOVwGvh5xfuQOLXRveHN+rPt7Bq/Mrvuk5QiQ+0cN5sWQdOBeENUvU7aIUTzmsw9MZJ79XJhnw0xWrT1lZsZ04JswxGPzgKeP+kpC1gKkH6CT2dW4MPAaPahoNDEuGXZQ8SI2nlFuf0W8eyufHNbAAEOyTykqicgg+WcsPLpODMT1X1dI968zQRSRMoi7nJGUaXwINQkKiuWSGbKahUMYdE1wPeECoJc++MbK43W6SYtfv6N7vZ8jje83Kz2eSi4aG3nX77aGorq6EYnh7OBNvL5s4cSkwdhvjtlxBPLsoSavT6Qw4TmUtx+lFl45ZBXvH4FJ22lH+sPXihoTo9M4gZohvg9Dm23qwplbsFp/rzZf23EYS8tDHW4uL0WYcfjU3n/9Ij+xOoB9CTkRsMDAbUaeXzz4qISU55g+hOQCc8gmp26WuoUnZOnrWj60eINrDP2j6wyCWT+9AQa4pPHRAbCzEiJSUxEC2NriY5OItl3EzjHFgAP2ZP6Z8eIKTjThyayhMs9qOOPgIf82XT52v12IeNUQNQ6vw==|920

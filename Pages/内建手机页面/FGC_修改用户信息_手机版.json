@@ -86,26 +86,46 @@
         "Foreground": 0,
         "Formatter": 1,
         "HorizontalAlignment": 2,
-        "VerticalAlignment": 3
+        "VerticalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
-        "Foreground": null
+        "Foreground": null,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 14.666666984558105,
         "Foreground": 4,
-        "Formatter": 1
+        "Formatter": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 16.0,
         "Foreground": null,
-        "Formatter": 5
+        "Formatter": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 16.0,
         "FontWeight": 6,
         "Foreground": null,
-        "Formatter": 1
+        "Formatter": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -134,20 +154,27 @@
     "SheetStyle": {
       "FontFamily": 7,
       "FontSize": 13.333333015441895,
-      "Foreground": 8
+      "Foreground": 8,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
     "2,4,2,10",
+    "6,5,6,8",
     "14,2,2,14",
     "18,2,2,14",
     "21,2,2,6",
-    "21,10,2,6",
-    "6,5,6,8"
+    "21,10,2,6"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "Title": "修改用户信息",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
@@ -157,4 +184,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//oO4u+Se9y6jPTTZsReYmv6i+GcqgNXOpRrNudES/rLBAqQxShvijrS6A/HJTep6DmfkqS7knH7O0PVh9F25+67aUdMDEML4SvKaqIXPC4J7Xkf86Xyrm27Es76pctKTBxED7GV6usw8PeUxMmBzCInhR4BPEdfN9Yx92tLfZ1BeO+idZ1iGHcKUVv6bq0AmyruO37su5ZIll8Hl8oau8ZXuQ4t4NM2+JtDT5lZxKapVMoYBIuS7Af6tbSfEnuNMP4hppaN5NHmIEwlJ4os/z7CGzOeYAUO5p0p3fUm0EXplUI8pY6ypSaxiRz+J0pb/4xABjkV7kyzWRbx78jyoFyXgd/PI2hjRilClWfVm7Dt09CLwJrpxaDIih4pQCWdX8xiWt53AexiA2N8afZbzprqtiUtLlyuKg0qY4ijl378vBreq+eXNYQs2T5bZGJEJRMoMR2lPNsEgJRtVuLxZY7fiqzU8o2uCrdqhsf/La3JmWAmlhKxGZZSd3EcM3YpUlBZu6jT28D70vAV2E4tjffVshPi5ylDXAqD68LlVDKjibnr4PDXGzWtk4YLK8Fxp9UOf/KWRK4YqVtLeiezWwBTV8z0RaI2IbWdixeY4RUY6tYEFA529LpH8ACZ87CfF0lm5qabhZl9VXp8e3e5x9oKlcak+zyU7Ku/sNgkU0U/NwwRdTRC3BCCyum85e9K6/nJGQnba7N4Mh8gLUfjYF37E2bVj37lyauAx59TMLiLjltDtHTA+jlU+AH7wLbp/C+ZFG1gpYfhdiJkeaVCbXqDgkGxw0G8xuy3Ymmurs3TBQRQoJfNpzEphyxjCQ8TmRurZS/2xwPvrB9EU3TCjybFdEkjkV/fVotDDBJq5KvlBnSRMZ7tr4+0x7QYsSWASf48ZxOTfJmYZ/b5DxGMyRrA==|920
+}//smfWEnAf/5W/xXNoPlykP1TriCB9TQNG5C1B9kC08Iph/VQ4Rn7g2AgE2s9n9JWriGXHFcruuCqSljCsNEFFgaZYXJxFhPkCDSaYcOHqMYIz+GqacveflrpwxHCtTKk2jH0awpnRHDlEJxla3qJL7hCvNEn1Jjg3MfH0sfWBbC8kWVB1umRyR1YEKMPUcGMpL0u3+NEC9lH5ofYMPF3fnAgyJKAQX0vPqyExRZdOoNCNbGsRtwidi35vqTizR+KjKiGnpTgHsE18coEBbtzlNZiFPqVUFdTWei5JIyNNMMR5QQrCv/DOjrqvdarN4Ly+cBVU37lsJLq5TkwbGFBYHeh5TjeEjao+m5/odoeWGC6z2/PryickI8dZnFMT/LXNaVZR+AeBgnhQjMf629YMJM0Wftn1syhJ/9zhgdFOuTIoaYN6axQEZhGVrdulRAgDOmTzkbjWFqR9Sp4fGFE6JKaZu5PRgeivXwIyqUmTsQdwgMD/l7AogKHxtJQnRIkxHhpkBNUoYh/YOGSdHm/aL7v0p5FbIUGvWnTufY6A3320saKmZ8jzlt6XPdCT8cxSqF6eKgcydsPNs38te1o/C7TTdmx/SQQE1wVpaRpw+Yt6mHEfYgnPzZ2MaWwfBPEdH3U31ifYpVUcw3/8E/k36jHnqvpLJDm6xABzD1M3f14zG4f3og9EY8yFjogk1cURkkl+OTB1NJxAQPbghR10XQMDKq+YeA0U3U+PVj8uVGQRfYo4QZDNP/nowKKvLV8kj/dK2YfTVZpPPf9kqJhL8+JfFunknG2Myjou5PBu/pYuqGQATRwOlVpwk7qtxxOfXTptsuw+aP6D+x66oKnD19P/RiEEpu5F3QFmzcKnqFIPaG2AtV68c6C1aVH3Xkw6N7Ck1FwKC7qBFYfUJOntWg==|920

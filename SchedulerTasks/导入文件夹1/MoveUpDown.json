@@ -1,0 +1,31 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.OneTimeScheduleTrigger, ServerDesignerCommon",
+      "StartDateTime": 44525.0,
+      "ScheduleRunInDebugServer": false
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "param",
+      "TableValue": {
+        "TableName": "表1",
+        "TableValueType": 1,
+        "BindingInfos": [
+          {
+            "BindingInfo": {
+              "TableName": "表1",
+              "ColumnName": "ID"
+            },
+            "ColumnName": "ID"
+          }
+        ]
+      },
+      "ID": "63cc06cd363a43f8b066e251724e4afe"
+    }
+  ],
+  "Name": "MoveUpDown"
+}
