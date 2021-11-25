@@ -137,6 +137,15 @@
   },
   {
     "ModuleName": "PCPage/页面1",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-11-25T09:35:08.2171347+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\页面1.json"
+    ]
   }
 ]
