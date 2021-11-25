@@ -145,52 +145,22 @@
   },
   {
     "ModuleName": "Pages/A",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-11-25T09:18:01.4682581+08:00",
     "ModuleType": 6
   },
   {
     "ModuleName": "Tables/B",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-11-25T09:18:15.9760909+08:00",
     "ModuleType": 22
   },
   {
     "ModuleName": "ServerCommands/C",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-11-25T09:18:26.5658638+08:00",
     "ModuleType": 20
   },
   {
     "ModuleName": "SchedulerTasks/D",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-11-25T09:18:36.1124638+08:00",
     "ModuleType": 21
   },
   {
     "ModuleName": "Reports/E",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-11-25T09:19:02.6976912+08:00",
     "ModuleType": 19
   }
 ]
