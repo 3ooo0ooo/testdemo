@@ -148,19 +148,6 @@
     "ModuleType": 6
   },
   {
-    "ModuleName": "Tables/B",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-11-25T09:19:54.0886107+08:00",
-    "ModuleType": 22,
-    "ToRemoveFiles": [
-      "Tables\\B"
-    ]
-  },
-  {
     "ModuleName": "ServerCommands/C",
     "ModuleType": 20
   },
@@ -174,12 +161,6 @@
   },
   {
     "ModuleName": "Tables/b",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ZoeyHe",
-      "Email": "zoey.he@grapecity.com"
-    },
-    "LockDateTime": "2021-11-25T09:19:54.0886107+08:00",
     "ModuleType": 22
   }
 ]
