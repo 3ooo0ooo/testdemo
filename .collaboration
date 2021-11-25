@@ -147,5 +147,15 @@
     "ToRemoveFiles": [
       "Pages\\页面1.json"
     ]
+  },
+  {
+    "ModuleName": "PCPage/页面2",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-11-25T11:01:19.1875731+08:00",
+    "ModuleType": 1
   }
 ]
