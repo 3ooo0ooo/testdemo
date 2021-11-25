@@ -145,7 +145,16 @@
   },
   {
     "ModuleName": "Pages/A",
-    "ModuleType": 6
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-11-25T09:21:08.0857351+08:00",
+    "ModuleType": 6,
+    "ToRemoveFiles": [
+      "Pages\\A"
+    ]
   },
   {
     "ModuleName": "ServerCommands/C",
