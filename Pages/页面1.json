@@ -17,6 +17,58 @@
   },
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "aaa",
+        "ID": "12e61545c0c24c8ca8712515874c88d4"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "bbb",
+        "ID": "c0963171a433462684c1a052374fe218"
+      },
+      {
+        "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+        "ParameterName": "ccc",
+        "ID": "d082ca71be7d449ca1d4c918b3fd24e0"
+      },
+      {
+        "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+        "PropertyItemsList": [
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=页面1!L11"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=页面1!aaa"
+            }
+          },
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=页面1!Q15"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=页面1!bbb"
+            }
+          },
+          {
+            "TargetCells": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=页面1!N13"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=页面1!ccc"
+            }
+          }
+        ]
+      }
+    ],
     "AuthorizeInfo": {
       "VisitMode": 2
     },
@@ -27,4 +79,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//d74iqvwjYmCSCpj/VEa4mgTef28VWhnY71ilrGL/SObE8nh6Kxro9aoWxXbarN74HgOz5HIhW+hNFvCpvVAJ+dQmAGQ8sf2p4NWqjYXaK/hSQB9mn3XfOYard7scYjbhUSIs4ZjNTswKZXqyqyV36JDgaqiPBaa+QBrovYq+wcl8W/dPa/CSFHrvvR4RLKm0vLoWfV8t8/6mhNLWgr+mXHuBwjGsaCmXnayKh16ymfPRUXxAqPLKRgfWlWcLPAFb488yeMV3wQ1odBi/sn5SFlva4bjS/THyyum24Jm3rfumurwsrm+h8U9MwlDSgJWAYvoOBDlDGE3mlzgwajsPplIOdjL3fIT5yBEr+dhchx0o0+7oEmqWtzWCzEwXkEr7cOgENrJMiXQj/pGjB0iCjiYbYPGDKWc3IJWkgjywH+KwgdH4Be0GM4IzLJEjjpmIEGKB9PbhWnZLQI2/2t9UzFc+xQfnoKnap5UQN9EO+XrD8yISHiIZRsCRvRGd+OplulWz4gj2i6MJRRYv85ZZ6Wt2fg1T7Y1cZZ7w7K2lLowq1BLfb0RtRYc0FImH+fmPn9xSeMN2hGfSJDaAF83dlwiIkW3njuuyzBtx24cJI+3AZ8RsppD8MkUvpriIS8+v9JqlW/X++rYWKDBeHbj/Bx+DsePpAu7XcNmSOif82RcP7qo/8t+FyI1yYnX47bhUphg3wTY6yfgSjRGtYiqBdbyXJnP/3uVi6FARYl3wB8hyPiqtGY8+gkGku/NZnRQ10C4ZEG6gzHQkBXjy7rWYiqzwOiNuCYHwHZ1JYe3rJyA/1R9K2OZ1Pr4TZPh1FS4M5GbV9SNJDSna8MI6yxj8B/+I4Uadnd1y++XXPts6NOzK01pBn38tiGT/Jk3VJplgkQyH1XGPKQU/+1/KtOcTUw==|920
+}//8bfPtvg4Yq3ibIoVzgouKgrF4Fad6Kn8PgrXW6xggIxvQvDCCzfjYUSnZgi4EqipMn7HUn0iL7p5vITIDCL3ctLGq8g4ZbA74TB+FVb9L7yK9jnbqbbMrHwRl5ak4PPSlM20fkMEUHsCQh9ttdz+dGttVrQvsyyy/6UQbidH4rr+Kk9ZUCR6Zdr5r+bKLJqAPqbECrGPUr4qPBwCGpJCr7idoIFwdqmX0QEgPQBaLnJvfJh4NIJIoM5c83Dg7C/5wYqGyDPViI7czPti4wDqcVbT4YNID78Ezfh5V3UVlYAVnS5IbSP9OwIq7UYgmFJO9TxubyRIBFGUA2acdIyPeXW8EQMnABCf/1TG2J+pWz9LJSIhZdat9+7UGqLd9WZ+qARHqWW0Zh1rlDO0lxK/3Qu0LjwDHrabI6m17k4IHkxYMekFKWoojvEUnxlykyTdedOGqd3VuaMo3qJPiAmpGo4wde+/xmJp50EtTBro+GXmfSUS1ck6q7sP8AQ9V1uPeD5BHkvV9CXC5CqAVLRccf4SpZ61h82F4g1xpHxPZftuV3ra6EpbQYlhavWJj16D4ZAR8ZVfR8I4eX57OJZZuvRgnrcXMuJKMCj5qZegrm3F1NCmi7GA8fpG/bg3k2wkGA2qAGNneVX3XOpzNY0aK9D91lJaihMVmjtmOcyh4fhyvHiPa6UbI/m8pS0loyrCV/BxBuqvAsftE2HkUTTt9jWLeS1YlXuEsKiyNZxRyP0aEFD6t8hrfNpptG60m8o6zbchOVsOYg2X6NLWl3qk/v+1/dvGa/AxQCFoMfQd9j3n8RYkCcYw2c5aD/BQvlQLFpjf5EnpGzvX4hYxoZ/C1/QfB97dcckwKGHB9qBOk+p4Gn0A4uwY0msvrnALwUZF0yyy+SU7mS500mMknjHepQ==|920
