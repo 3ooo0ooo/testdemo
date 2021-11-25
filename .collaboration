@@ -171,7 +171,16 @@
   },
   {
     "ModuleName": "SchedulerTasks/D",
-    "ModuleType": 21
+    "State": 2,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-11-25T09:21:30.7300801+08:00",
+    "ModuleType": 21,
+    "ToRemoveFiles": [
+      "SchedulerTasks\\D"
+    ]
   },
   {
     "ModuleName": "Reports/E",
