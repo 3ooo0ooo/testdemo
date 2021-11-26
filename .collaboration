@@ -134,7 +134,7 @@
       "UserName": "GRAPECITY\\ZoeyHe",
       "Email": "zoey.he@grapecity.com"
     },
-    "LockDateTime": "2021-11-26T17:46:06.0649612+08:00",
+    "LockDateTime": "2021-11-26T17:47:53.685472+08:00",
     "ModuleType": 25,
     "ToRemoveFiles": [
       "DataConnectionSet.json"
@@ -223,6 +223,15 @@
   },
   {
     "ModuleName": "Table/_123ginatestmysqltable",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ZoeyHe",
+      "Email": "zoey.he@grapecity.com"
+    },
+    "LockDateTime": "2021-11-26T17:47:53.6884708+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "Tables\\_123ginatestmysqltable.json"
+    ]
   }
 ]
